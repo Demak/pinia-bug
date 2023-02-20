@@ -16,8 +16,8 @@ export default defineComponent({
 		...mapWritableState(useCounter, ['counter'])
 	},
 	created(){
-		console.log(this.stuff);
-		this.stuff = 'stuff';
+		console.log(this.counter);
+		//this.counter = 'stuff';
 	}
 });
 </script>
